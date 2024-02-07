@@ -40,6 +40,7 @@ spec:
             - 1000:1000
             - /opt/nifi-registry/nifi-registry-current/database
             - /opt/nifi-registry/nifi-registry-current/flow_storage
+            - /opt/nifi-registry/nifi-registry-current/auth-conf
           volumeMounts:
             - name: "database"
               mountPath: /opt/nifi-registry/nifi-registry-current/database
